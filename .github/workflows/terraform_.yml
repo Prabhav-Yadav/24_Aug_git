@@ -3,11 +3,11 @@ name: Terraform Azure Deployment
 on:
   push:
     branches:
-      - main
+      - feature/rg
 
   pull_request:
     branches:
-      - main
+      - feature/rg
 
   workflow_dispatch:
 
